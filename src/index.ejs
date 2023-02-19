@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Key Bob</title>
+        <link rel="canonical" href="<%= SERVER %><%= PUBLIC_PATH %>/">
+        <link rel="manifest" href="<%= PUBLIC_PATH %>/manifest.webmanifest">
+        <link rel="icon" href="<%= require('./favicon.png') %>">
+        <script type="text/javascript" src="<%= PUBLIC_PATH %>/index.js"></script>
+    </head>
+    <body>
+        <%= APP_NAME %>, version=<%= APP_VERSION %>.<%= BUILD_NUMBER %>
+    </body>
+</html>
