@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
         "target": "ES2018",
-        "typeRoots": ["..", "../node_modules/@types"]
+        "typeRoots": ["../node_modules/@types"]
     }
 }
